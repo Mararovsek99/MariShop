@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--nav-background);
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--nav-text);
+}
+li,
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-h3);
+}
+.ShopBlueBtn {
+  background-color: var(--nav-button-bg);
+  color: var(--nav-button-text);
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.nav-anim {
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+  will-change: transform;
+  cursor: pointer;
+}
+
+/* On hover: slightly grow */
+.nav-anim:hover {
+  transform: scale(1.07);
+}
+
+/* On click (press): shrink slightly */
+.nav-anim:active {
+  transform: scale(0.95);
+}
