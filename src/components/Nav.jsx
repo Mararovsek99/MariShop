@@ -6,7 +6,7 @@ function Nav() {
   return (
     <nav>
       <Link to="" className="logo">
-        MariMusic
+        MARISHOP
       </Link>
       <ul>
         <li>

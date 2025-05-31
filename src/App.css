@@ -1,0 +1,7 @@
+.main-content {
+  padding: 20px;
+  background-color: var(--main-background);
+  color: var(--main-text);
+  max-width: 80vw;
+  margin: 0 auto;
+}
