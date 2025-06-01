@@ -6,18 +6,18 @@ function Home() {
     <div className="home-container">
       <header className="hero">
         <div className="hero-text">
-          <h1>Find Your Car</h1>
-          <p>Explore our collection of cars and find your perfect match</p>
+          <h1>Find What You Need</h1>
+          <p>Explore our wide collection and discover your perfect match</p>
           <a href="/shop" className="cta-button">
             Shop Now
           </a>
         </div>
-        <img src="Octavia.webp" alt="Car" className="hero-img" />
+        <img src="Octavia.webp" alt="Featured Product" className="hero-img" />
       </header>
 
       <section className="features">
         <div className="feature">
-          <div className="icon">🚗</div>
+          <div className="icon">🚚</div>
           <h3>Free Shipping</h3>
           <p>Enjoy free shipping on all orders with no minimum purchase</p>
         </div>
